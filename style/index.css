@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -51,13 +51,12 @@ table {
 }
 
 body{
-
     background-color: #171219;
 }
 
 
 #but1, #but2, #but3, #but4{
-    background-color: #3F0D12;
+    background-color: #0b2545;
     padding: 15px;
     border-radius: 25px;
     font-size:30px;
@@ -66,18 +65,20 @@ body{
 
 }
 
+
 .container {
-display: flex;
-flex-direction: row-reverse;
-justify-content: flex-start;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 0;
+    }
 
-}
-
-.Avatar{
-
-
-}
+    .Upper{
+        font-family: 'Oswald', sans-serif;
+        font-size: 120px;
+        margin-top:-85px ;
+        color: #001b2e;
+    }
+    
 
 h1{
     font-family: 'Oswald', sans-serif;
@@ -85,4 +86,90 @@ h1{
     color: #A3B4A2;
     text-align: center;
     margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+
+.Container1{
+    width: 100px;
+    display: flex;
+    margin-bottom: 5%;
+
+}
+
+.pic1 {
+    max-width: 400px;
+    margin-right: 10%;
+    margin-left:400%;
+}
+
+.pic2 {
+    max-width: 400px;
+    margin-right: 10% ;
+}
+
+.pic3 {
+    max-width: 400px;
+    margin-right: 10%;
+}
+
+.Container2{
+    width: 100px;
+    display: flex;
+}
+
+
+.pic4{
+    max-width: 400px;
+    margin-right: 10%;
+    margin-left: 21%;
+}
+
+.pic5{
+    max-width: 400px;
+    margin-left: -10%;
+ 
+}
+
+.pic6{
+    max-width: 400px;
+    margin-right: -17%;
+    max-height: 400px;
+}
+
+footer{
+    background-color: #0c0a3e;
+    margin-top: 25%;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.words{
+    display: flex;
+}
+.p1 {
+   
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: 10%;
+    margin-left: 25%;
+    padding: 30px;
+}
+.p2 {
+   
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: 10%;
+    margin-left: 5%;
+    padding: 30px;
+}
+   
+.p3 {
+
+   padding: 30px;
+    font-size: 30px;
+    color: aliceblue;
+    margin-right: 10%;
+
 }
